@@ -96,7 +96,7 @@ const HeroSection = () => (
           transition={{ duration: 0.6, delay: 0.55 }}
           className="text-primary font-medium text-sm tracking-[0.2em] uppercase mb-6"
         >
-          Full Stack Web Developer
+          Python Full Stack Developer
         </motion.p>
 
         <motion.p
