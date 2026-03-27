@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Globe, Layout, Server, Database, Zap } from "lucide-react";
 
 const services = [
-  { icon: Globe, title: "Full Stack Web Development", desc: "End-to-end web application development with modern technologies." },
+  { icon: Globe, title: "Python Full Stack Development", desc: "End-to-end web application development with modern technologies." },
   { icon: Layout, title: "Frontend Development", desc: "Responsive, pixel-perfect UI with React and modern CSS." },
   { icon: Server, title: "Backend Development", desc: "Robust server-side logic using Django and Python." },
   { icon: Database, title: "Database Design", desc: "Efficient MySQL database architecture and optimization." },
