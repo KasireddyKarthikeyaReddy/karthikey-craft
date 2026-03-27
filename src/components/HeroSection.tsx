@@ -52,7 +52,7 @@ const HeroSection = () => (
           className="mb-8"
         >
           <Avatar className="w-32 h-32 mx-auto ring-4 ring-primary/30 ring-offset-4 ring-offset-background shadow-glow">
-            <AvatarImage src="https://i.postimg.cc/FzDWG0jK/KARTHIK.jpg" alt="Karthikeya Reddy Kasireddy" />
+            <AvatarImage src="https://i.postimg.cc/Y9jxNjpT/karthik1.jpg" alt="Karthikeya Reddy Kasireddy" />
             <AvatarFallback className="text-2xl font-bold bg-primary/20 text-primary">KR</AvatarFallback>
           </Avatar>
         </motion.div>
