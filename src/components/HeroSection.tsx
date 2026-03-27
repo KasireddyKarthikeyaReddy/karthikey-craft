@@ -44,11 +44,24 @@ const HeroSection = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
       >
+        {/* Profile Picture */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mb-8"
+        >
+          <Avatar className="w-32 h-32 mx-auto ring-4 ring-primary/30 ring-offset-4 ring-offset-background shadow-glow">
+            <AvatarImage src="https://i.postimg.cc/FzDWG0jK/KARTHIK.jpg" alt="Karthikeya Reddy Kasireddy" />
+            <AvatarFallback className="text-2xl font-bold bg-primary/20 text-primary">KR</AvatarFallback>
+          </Avatar>
+        </motion.div>
+
         {/* Status badge */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          transition={{ duration: 0.5, delay: 0.35 }}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-secondary/50 backdrop-blur-sm mb-8"
         >
           <span className="relative flex h-2.5 w-2.5">
